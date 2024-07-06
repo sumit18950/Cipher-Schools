@@ -1,0 +1,130 @@
+It is invented by Guido van Rossum in 1991
+Uses of Python 
+-Web development 
+-Software development 
+-Mathmatics 
+-System scriptng
+-Data science 
+
+Why Python 
+-Python work on different platforms (Window,Mac ,Linux ,Raspberry Pi etc)
+
+Python automatically identifies the types of variables 
+
+Variable & datatypes 
+-A variables is the name given to  a memory location in a program 
+
+Datatypes
+-Primarily these are following data type in python
+a. Integer - It hold the numberical value 
+    for eg-1,2,-1
+Inbuilt function and operation for Integer :
+num=10;
+1. print(abs(num))  ##Absolute value
+output->10
+2. print(bn(num))  ##binary representation 
+output->1010
+3. print(hex(num))  ##hexa representation 
+output->Oxa 
+3. print(pow(num,2))  ##power function
+output->100
+4. print(divmod(num,3))  ##Quouient & Remainder
+output->3,1
+
+b. Floating no.-It will take decimal number
+   for eg-1.1,24.5 
+Inbuilt function and operation for float :
+1. print(round(price))  ## Round
+  output -> 100
+
+-Typecasting
+--print(int(price))->convert to integer
+output-=99
+--print(Float("1234))->convert string  to integer
+output-=1234
+
+ c. String (greeting="hello world!")
+
+Inbuilt function and operation for String :
+1. print(greeting.lower())   ##convert to lower
+2. print(greeting.upper())   ##convert to upper
+3. print(greeting.replace("world","python"))   ## for Replace substring 
+4. print(greeting.split())  ##split string into a list 
+5. print(greeting.find("world") ## find the world of substring  
+6. print(len(greeting))  ##length of string
+
+d.List[]- It is mutable(can be change) .It is container to store a set of value of any data type
+eg fruit=["apples","banana","cherry"]
+
+Inbuilt function and operation for list:
+1.Append - It always add at end of the list 
+2. Extend- It also  add at end of the list
+3.Remove- It remove an element 
+4.Pop- It remove the last element
+5. Sort - It sort the list 
+6.len - length of list 
+7. index - find the index of particular value 
+
+c.Tuple() - It is immutable (cannot be change )
+   Coordinates=(10.0,20.0)
+Inbuilt function and operation for tuple :
+1.count - how many time a number is occurs 
+2. index - find the index of particular 
+3. len - length of the tuple
+You can change in tuple by converting tuple into list  
+for eg : coordiante=(10.0,20.0);
+  Now convert in list :
+li=list(coordinate)
+Now print (li)
+[10.0,20.0]
+
+d.Dictinory - Dictinory is a collection of key value
+syntax- person {name : "Pranav"}
+Inbuilt function and operation for Dictinory :
+1.print (person.key())  ##Get all keys
+2. print (person.value())  ##Get all value
+3. print (person.iteam()) ## Get all key value pair 
+4.update - update dictinory with another dictinory
+5. pop - for remove the value
+6.length - to check the length of the dictinory
+
+
+e. Set - It is a collection of non repetitive element 
+- for eg se={1,2,3,4} 
+- not allow  duplicates
+-length = to check the length 
+- add = to add the value
+
+Conditional statement :
+-if 
+-elif
+-else
+for eg:   
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+ In this example conditon third is working conditon 1 and 2  follow the condition  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+ PIVOT TABLE :
+- It allows us to summarize
+- It allows us to analyz 
+- It explor and present the data in proper manner
+- It automatically sort the data 
+- It automatically count the total no of values 
+- It calculate the total of particular values of set of values 
+- It help to displaying all these result in a new table and showing summarized data 
+OPERATION :
+- Summarising Data : sum,average,count,min etc
+-Filtering Data : data,product,regiom filter 
+-Grouping Data : By (dates,monthly,quaraterly) , Product,region
+-Calculating Percentages : percentage of total,percentage change
+
+
+PIVOT CHART :
+- A pivot chart is an extension of a pivot table that provides a graphical representation of the data summaraized in the pivot table 
+- It allows for dynamic data visulization 
+OPERATION :
+- Changing chart types : column, bar ,line etc
+-Customizing chart element : titles, legent ,data labels ,colours
+-Drilling down data : Interatively explore data points in details 
+
+POWER QUERY :
+- It  discover , connect ,combine ,refine tha data across a wide variety of sourcer
+-It provides an easy way to import ,clean, and tranform data before analyzing in the excel
+OPERATIONS :
+-Merging Queries : combine data from different tables or sources
+-Appending Queries : stack data from similar tables
+-Unpivoting Column : Transform column into row for better analysis 
+Creating calculated column : add customer calculation and transformation

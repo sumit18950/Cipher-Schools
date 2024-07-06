@@ -1,0 +1,17 @@
+DATE - It  used to correct the formate of (year ,Month,Date)
+ • Syntax -> =DATE (year ,Month,Date)
+
+DAY - It gives the date of paticular
+  • Syntax -> =DAY(cell_name) 
+EDATE - It gives the specify data which we want
+   • Syntax -> =EDATE((Starting_date,No of month))
+
+NOTE - Advance Excel store the date into serial number we need to convert into data format.
+
+ WEEKDAY - It give the day of the particular date 
+   • Syntax -> WEEKDAY(cell_name)
+HOUR - It give the hour only
+    • Syntax -> HOUR(cell_name)
+MINUTE - It give the minute only
+    • Syntax -> MINUTE(cell_name)
+ 

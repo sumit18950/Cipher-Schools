@@ -1,0 +1,38 @@
+1. TRIME - It is used  to remove all spaces 
+   • Syntax -> =TRIM(cell_name)
+
+2 PROPER - It convert each string into upper letter  
+  • Syntax-> =PROPER(cell_name)
+3 UPPER - It convert all letter  into uppper letter
+  • Syntax-> =UPPER(cell_name)
+4 LOWER - It convert  all letter into lower letter 
+   • Syntax -> =LOWER(Text _name)
+
+ Text  Manipulation  function
+1. Left - It helps to print character according to our requirment 
+   • Syntax -> =left (cell_name, 5)
+2. Mid - It return the specify  no of character from the text 
+    • Syntax -> =MID(cell_name ,start point ,no of character)
+3. Search - It help in searching particular character or set of character 
+    •  Syntax -> =SEARCH("What you want to search",cell_name)
+4. Len - It give the length of  particular cells
+      • Syntax -> =LEN(cell_name )
+5. Right - It retain the last character in a text string based on the number of character  you selected
+     • Syntax -> =RIGHT(cell_name,LEN(cell_name)-SEARCH(" ", A2)
+
+TEXT COMBINING:
+1. Concatenation - It helps to combine to two or more cell into one
+   • Syntax -> =CONCATENTATION( cell_name,cell_name)
+2. Text join- It can combine text from multiple range . It has separate part to define " delimitorsa"
+   • Syntax -> ==TEXTJOIN(" -",TRUE,cell_name,cell_name)
+
+
+CONDITIONAL LOGICAL FUNCTION
+1. IF - In this we can give one condition if the condition follow  then it give output true otherwise false
+   • Syntax -> =IF((condition check), (What if what if the particular condition true),(if the condition is false) )it 
+2 IF ERROR - It return a value that you are specify . If the formula evalute than it through an error . Basically it is used handling an error 
+  • Syntax -> =IFERROR((valuea),(what is the value if error occurs))
+   
+
+
+

@@ -1,0 +1,71 @@
+FUNCTION
+Definiton- Function is block of reusable code that perform a specific task . Function helps to modularize code , make it more organized and maintainable
+
+# Simple Fuction :
+def add_number(a,b):
+    return a+b
+print (add_number(3,4))
+ -output  7
+
+#Function with default Argument 
+def greet(name,message="hello):
+     return f"{ message},{name}!"
+print (greet("bob"))   -output : hello bob
+print(greet("Pranav",:hi)) -output : hi Alice
+
+#Function with variable  Argument
+def sum_all(*args)
+    return sum(args)
+ print(sum_all(1,2,3,4))
+output-15
+
+#Function with keyword  Argument  
+def display_info(** kwargs):
+   for key,value in kwargs.iteam():
+      print(f"{key} : {value}")
+
+display _info(name="pranav",age=30,city="jammu")
+output- name-pranav
+         age-30
+        city-jammu
+
+LAMBDA EXPRESSION:
+Lambda expression also know as anonaymois function are small,unmaned function define using the lambda keyword . They are often used for short ,throw away function 
+
+Use case in real life - lambda expression are commonaly used in sorting algorithm where a customer sorting key is needed  
+For example -  # Simple lambda Fuction 
+           square.lambda x:x*x
+           ##calling the lambda function 
+         print (square(5))       -output->25
+
+# lambda function in map
+number=[1,2,3,4,5,6]
+square=list(map(lambda x:x*x,number))
+
+print(square)     -output->1,4,9,16,25,36
+
+ 
+# lambda function in filter
+ number=[1,2,3,4,5,6]
+even_number=list(map(lambda x:x%2==0,number))
+
+print(even_number)  -output->2,4,6
+
+ 
+# lambda function in Sorted
+ student=[("Alice",25),("Bod"),23]
+sorted_student=Sorted(students,key=lambda student:student[1]
+
+print(sort_student)  -output->[('Bod' :20)]
+                              =[("Alice",25)]
+
+
+
+
+#ERROR HANDLING 
+Error handling in python is done using try ,expect,else and finally block . It allows you to handle expection gracefully and ensure that  program continue to run 
+
+
+
+
+
