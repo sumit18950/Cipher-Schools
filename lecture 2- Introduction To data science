@@ -1,0 +1,39 @@
+life cycle of data science project 
+1.  Understanding The Problem 
+2.  Gathering Relevant Data
+3.  Data Preparation & EDA (Data Analysis)
+4.  Feature Engineering & Feature Extraction
+5.   Model Building & Deployment
+
+
+1. what is  Understanding the Problem
+• Define the objectives clearly.
+• Determine how to measure the project  success.
+• Identify the problem type (e.g., classification, regression,)
+
+2. what is Gathering Relevant Data
+• Collect data from other  sources.
+• Ensure data is relevant to the problem.
+• Consider the volume, variety, velocity, and veracity of the data.
+
+3 what is   Data Preparation & EDA 
+• EDA  is stand for Exploratory Data Analysis
+• Clean the data (handle missing values, remove duplicates) from the data.
+• Perform exploratory analysis to understand the data.
+• So that the data should be prepared for error 
+
+4.  Feature Engineering & Feature Extraction
+• We need to select exactly that feature which we want to select
+• Create new features that can help improve model performance.
+• Reduce dimensionality if the feature space is too large.
+• Select the most important features to be used for modeling.
+
+5.  Model Building & Deployment
+• Choose appropriate algorithms and train models.
+• Validate model performance using cross-validation.
+• Deploy the model for real-time use or batch processing.
+
+
+
+
+
