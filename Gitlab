@@ -1,0 +1,64 @@
+Introduction to Version Control:
+.
+
+What is Git?
+Git is a distributed version control system which means every developer working on a project with git as  complete copy of a project
+history on their local system
+
+Key Features:
+• Snapshot
+• Branches
+• Local & remote repositories
+
+##Basic Git Commands: git init, git add, git commit, git status.
+
+What is a Repostiory?
+where you can store your code , your files amd each files revision history. These are of two types:
+
+Local: These repositories are stored on someone's own system or own workspace where one can make or commit their own changes.
+Remote: These repositories are stored on the Server directly.
+
+
+
+What are Branches?
+Suppose a developer is working on a project, the complete process or Life Cycle to make a project is called as a Master Branch. In this, each developer creates a seperate branch for themselves 
+which only involves their part of role in the project which makes it independent from someone else's work. This is called as Branching.
+Branch and Checkout are the two commands used to create a branch and switch between the branches in Git.
+
+What is Push?
+Git Push is a Git command which is used to Push the code present in your local Repository to the Remote Repository or the main branch where other's can access it.
+Before doing the push command we need to make sure that our changes are commited.
+Steps: Add -> Commit -> Push
+
+What is Pull Request?
+It is a request made to merge your code to the main branmch where the developer can discuss, review and enhance their project or their code.
+
+What is Merge Request?
+It is similar to the Pull Request.
+Steps: Push -> Merge(Master/Main) -> Clear description of the changes made.
+
+What is Commit?
+Saving or Taking a snapshot of the progress in the project after some changes are made by also recording the context of the changes.
+Steps: Git add(to add then changes) -> Git commit
+
+
+Using Git for Project Management:
+
+•  Branch Management
+•  Merging and Conflicts
+•  Version Tracking (git log, git diff, git blame)
+
+
+What is GitHub?
+GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time.
+Key Features:
+  •  Pull Request
+  •  Forks  (copy and modify)
+  •  Social Networking features for developers
+
+What is GitLab?
+GitLab is a web-based Git repository that provides free open and private repositories, issue-following capabilities, and wikis.
+Key Features:
+  •  Issue Tracking
+  •  CI/CD Pipelines
+  •  Merge requests
