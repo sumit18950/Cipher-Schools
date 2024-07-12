@@ -1,0 +1,57 @@
+import cv2
+
+# Read an image
+image = cv2.imread('path_to_image.jpg')
+
+# Display the image
+cv2.imshow('Image', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+# Convert the image to grayscale
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Resize the image to 100x100
+resized_image = cv2.resize(image, (100, 100))
+
+# Draw a rectangle
+cv2.rectangle(image, (50, 50), (150, 150), (255, 0, 0), 2)
+
+# Draw a circle
+cv2.circle(image, (100, 100), 50, (0, 255, 0), 2)
+
+# Display the image with shapes
+cv2.imshow('Shapes', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+# Apply Gaussian blur
+blurred_image = cv2.GaussianBlur(image, (5, 5), 0)
+
+# Apply Canny edge detection
+edges = cv2.Canny(gray_image, 100, 200)
+
+# Display the edges
+cv2.imshow('Edges', edges)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+import cv2
+from skimage.feature import hog
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread('path_to_image.jpg', cv2.IMREAD_GRAYSCALE)
+
+# Resize the image
+image = cv2.resize(image, (128, 64))
+
+# Extract HOG features
+features, hog_image = hog(image, pixels_per_cell=(8, 8), cells_per_block=(2, 2), visualize=True)
+
+# Display the HOG image
+plt.imshow(hog_image, cmap='gray')
+plt.title('HOG Features')
+plt.show()
